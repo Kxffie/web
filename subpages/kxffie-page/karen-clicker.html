@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script type="text/javascript" src="/javascript/subpage-js/karen-clicker.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/subpage-css/karen-clicker.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KxffieDev | Karen Klicker</title>
+    <meta name="description" content="KxffieDev.TK">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="/index.html">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Home Page
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="/subpages/profiles.html">
+                    <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                        Profiles
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="/subpages/discord.html">
+                    <i class="fa fa-hashtag fa-2x"></i>
+                    <span class="nav-text">
+                        Discord Servers
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="area">
+        <div id="content" style="margin: 0 auto;">
+            <div id="game">
+                <div id="sec-1">
+                    <div id="sec-content">
+                        <h2>Kxffie's Karen Generator</h2>
+                        <div class="generators">
+                            <img src="/images/karen-klicker/karen_1.png" id="karen_image" onclick="add()">
+                        </div>
+                        <p>You have <strong><span id="karencount">0</span></strong> Karens</p>
+                        <p><strong><span id="kps">0</span></strong> Karens Per Second (kps)</p>
+                    </div>
+                </div>
+                <div id="sec-3">
+                    <div id="sec-content">
+                        <p style="font-size: 48px;padding: 0;margin: 0;">Shops</p>
+                        <hr id="shops-hr"></hr>
+
+                        <div id="buy">
+                            <button class="button-buy" id="buy-phone" onclick="buyPhone()">
+                                Buy Phone
+                                <p>Price: <span id="phoneprice">0</span></p>
+                                <p>Amount: <span id="phoneamount">0</span></p>
+                            </button>
+                        </div>
+
+                        <div id="upgrade">
+                            <button class="button-buy" id="buy-phone" onclick="buyPhoneMulti()">
+                                Phone Multiplier<br>
+                                <p>Multi Price: <span id="phonemultiprice">0</span></p>
+                                <p>Multi Amount: <span id="phonemultiamount">0</span></p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="sec-2">
+                    <div id="sec-content">
+                        <p style="font-size: 48px;padding: 0;margin: 0;">News</p>
+                        <hr id="con-hr"></hr>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
